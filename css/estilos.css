@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+       
+}
+
+.menu h1{
+    color: white;
+    text-shadow: rgb(44, 69, 184) 2px 2px 4px; 
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.main{
+    width: 700px;
+    display: flex;
+
+}
+
+.seccion1{
+    display: flex;
+    font-family: 'Amaranth', sans-serif;
+    justify-content: space-evenly;
+    background-color:silver;
+    padding: 20px;
+  
+    width: 500px;
+    
+}
+
+.seccion1 .contenedor-imagen{
+    display: block;
+
+}
+
+.seccion1 .contenedor-imagen .img2 {
+    float:right;
+    height: 40px auto;
+    width: 40px auto;
+
+}
+
+aside{
+    background-color: teal;
+    font-family: 'Sniglet', cursive;
+    padding: 10px;
+    width: 115px;
+    color:thistle;
+}
+
+.contenedor-lateral{
+    text-align: center;
+    color: thistle;
+
+
+}
+
+.contenedor-lateral .img4{
+    width: 113px;
+
+
+}
+
+input {
+    background-color: teal;
+    padding: 2px;
+    border-radius: 5px;
+    margin: 2px auto;
+    width: 110px;
+    color: thistle;
+}
+
+
+ @media screen and (max-width:100%){
+    .seccion1{
+    max-width:100%;
+    }
+
+ }
+
+ 
